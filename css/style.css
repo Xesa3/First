@@ -40,6 +40,10 @@ nav:hover{text-decoration: none;}}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
+body{
+    width: 2000px;
+}
+
 body h2{
     font-size: 60px;
     text-align: center;
@@ -66,6 +70,7 @@ body p{
 .welcome{
     background-color: purple;
     height: 650px;
+    width: 100%;
 }
 
 /* header */
@@ -152,6 +157,17 @@ body p{
     text-transform: uppercase;
 
 }
+
+.button:hover{
+    box-shadow: 0 0 10px rgb(233, 194, 121);
+    transition: box-shadow 0.3s linear;
+}
+
+.button:active{
+    background-color: rgb(255, 255, 255);
+    color:orange;
+}
+
 
 /* services */
 
