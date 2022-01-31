@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*::before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    size: 100%;
+    font-size: 100%;
+    line-height: -1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{vertical-align: top;}
+ul{list-style: none;}
+nav:visited{text-decoration: none;}
+nav:hover{text-decoration: none;}}
+
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body h2{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 160px;
+}
+
+body p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 800px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+
+/* Первый блок */
+
+.welcome_back{
+    padding: 65px 280px 0 200px;
+}
+
+.welcome{
+    background-color: purple;
+    height: 650px;
+}
+
+/* header */
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav */
+
+.nav{
+    padding: 0px 20px 0px 0;
+    word-spacing: 30px;
+}
+
+.nav_link{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+
+
+}
+
+.nav_link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: rgb(235, 172, 54);
+    opacity: 0;
+
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity 0.2s linear;
+}
+
+.nav_link:hover::after{
+    opacity: 1;
+
+}
+
+.nav_link:hover{
+    color: rgb(235, 172, 54);
+    transition: color 0.2s linear;
+}
+
+/* text hello */
+
+.text_welcome {
+    height: 300px;
+    width: 800px;
+    margin: 0px auto;
+    padding-top: 10%;
+}
+
+.text_welcome_inenr {
+    font-size: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 800px;
+    color: white;
+    text-align: center;
+    
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 2px;
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+
+/* services */
+
+.Services {
+    background-color: rgb(52, 204, 196);
+    height: 850px;
+
+}
+
+/* header */
+
+.header_serv {
+    margin: 0px auto;
+    width: 800px;
+}
+
+.text_header_serv{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.sdfg{
+    color: white;
+}
+
+/* menu */
+
+.sontainer_services{
+    padding: 200px 0 0 0;
+}
+
+
+.container_text {
+     display: flex;
+/* от родительского блока */
+    margin: 0 0px 0 400px; 
+}
+
+.container_text div{
+    /* между ними */
+}
+
+/* Flag */
+
+.flag{
+    margin: 0px;
+    display: block;
+    width: 300px;
+}
+
+.flag_content{
+    width: 200px;
+    text-align: center;
+}
+
+.flag_text1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.flag_text2{
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+.flagic{
+    position: relative;
+    left: 65px;
+    padding-bottom: 20px;
+}
+
+
+/* Pencil */
+.pencil {
+    margin: 0px;
+    display: block;
+    width: 300px;
+}
+
+.pencil_conten{
+    width: 200px;
+    text-align: center;
+}
+
+/* gears */
+.gearss{
+    position: relative;
+    left: 25px;
+    padding-bottom: 20px;
+}
+
+.gear{
+    margin: 0px;
+    display: block;
+    width: 300px;
+}
+
+/* rocket */
+
+
+
+
